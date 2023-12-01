@@ -1,7 +1,7 @@
 name: Github repo and issue stats collection
-on:
-  schedule:
-    - cron: "*/30 * * * *"
+on:workflow_dispatch:
+  #schedule:
+  #  - cron: "*/30 * * * *"
 
 jobs:
   main:
